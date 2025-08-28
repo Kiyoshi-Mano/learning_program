@@ -5,8 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "datetime>=5.5",
+    "duckdb>=1.3.2",
     "matplotlib>=3.10.5",
+    "numpy>=2.3.2",
+    "openai>=1.101.0",
     "pandas>=2.3.1",
     "plotly>=6.2.0",
+    "plotly-express>=0.4.1",
     "streamlit>=1.47.1",
 ]
